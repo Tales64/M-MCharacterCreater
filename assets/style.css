@@ -1,0 +1,48 @@
+:root {
+    --main-bg-color: #72ecfa;
+    --second-bg-color: #fa8072;
+    --third-bg-color: #8072fa;
+
+}
+
+.pageText{
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--second-bg-color);
+}
+
+.backgroundBox{
+background-color: var(--third-bg-color);
+
+}
+
+.attributeGroup{
+    display: inline-block;
+}
+
+.attributeTwins{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inputBox{
+width: 20px;
+}
+
+.statsArea{
+background-color: var(--main-bg-color);
+width: 100%pw;
+height: 90vh;
+}
+
+@media(min-width: 600px){
+    .warning{
+        background-color: red;
+    }
+}
+@media(min-width: 768px){
+    .warning{
+        background-color: rgb(87, 255, 9);
+    }
+}
