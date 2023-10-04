@@ -5,11 +5,17 @@
 
 }
 
+.container{
+    margin-right: 40px;
+    justify-content: ;
+}
+
 .pageText{
     font-family: "Comic Sans MS";
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 550;
     color: var(--second-bg-color);
+    text-align: left;
 }
 
 .backgroundBox{
@@ -42,6 +48,12 @@ height: 90vh;
     }
 }
 @media(min-width: 768px){
+    .pageText{
+        font-family: "Comic Sans MS";
+        font-size: 20px;
+        font-weight: 600;
+        color: var(--second-bg-color);
+    }
     .warning{
         background-color: rgb(87, 255, 9);
     }
